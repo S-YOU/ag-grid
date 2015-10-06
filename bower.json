@@ -24,10 +24,9 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "test",
-    "tests"
+    "*",
+    "!dist/*.js",
+    "!dist/*.css"
   ],
   "devDependencies": {
   },
