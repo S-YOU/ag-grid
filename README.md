@@ -1,5 +1,5 @@
 
-ag-Grid
+ag-Grid [![Build Status](https://travis-ci.org/S-YOU/ag-grid.svg?branch=master)](https://travis-ci.org/S-YOU/ag-grid)
 ==============
 
 "ag" stands for AGnostic
