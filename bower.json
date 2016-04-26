@@ -1,38 +1,32 @@
 {
   "name": "ag-grid",
-  "version": "2.3.7",
+  "version": "4.1.3",
   "homepage": "http://www.ag-grid.com/",
   "authors": [
-    "Niall Crosby <niall.crosby@gmail.com>"
+    "Niall Crosby <niall.crosby@ag-grid.com>"
   ],
-  "description": "Advanced Javascript Datagrid. Supports raw Javascript, AngularJS 1.x, AngularJS 2.0 and Web Components",
+  "description": "Advanced Javascript Datagrid. Supports raw Javascript, React, AngularJS 1.x, AngularJS 2.0 and Web Components",
   "main": [
-    "dist/ag-grid.js",
-    "dist/ag-grid.css",
-    "dist/theme-fresh.css",
-    "dist/theme-blue.css",
-    "dist/theme-dark.css"
+    "./main.js"
   ],
   "moduleType": [
     "node"
   ],
-  "typescript": {
-    "definitions": "dist/ag-grid.d.ts"
-  },
   "keywords": [
     "web-components",
     "grid",
     "data",
     "table",
-    "angular"
+    "react",
+    "reactjs",
+    "angular",
+    "angularjs"
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "*",
+    "!dist/*.js",
+    "!dist/*.css"
   ],
   "devDependencies": {
   },
